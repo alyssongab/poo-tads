@@ -1,0 +1,15 @@
+package Funcionarios;
+
+public abstract class Funcionario {
+	
+	protected String nome;
+	protected float salario;
+	protected String cargo;
+	protected float bonus;
+	
+	public Funcionario() {
+		
+	}
+	
+	public abstract float calcularBonus();
+}

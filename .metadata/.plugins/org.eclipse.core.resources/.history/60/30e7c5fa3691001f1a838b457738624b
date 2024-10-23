@@ -1,0 +1,11 @@
+package veiculos;
+
+public class Caminhao extends Veiculo {
+	
+	private float capacidadeDeCarga;
+	
+	public Caminhao() {
+		super();
+	}
+
+}

@@ -1,0 +1,12 @@
+package veiculos;
+
+public class Carro extends Veiculo {
+
+	public int numeroDePortas;
+	
+	public Carro() {
+		super();
+	}
+	
+}
+

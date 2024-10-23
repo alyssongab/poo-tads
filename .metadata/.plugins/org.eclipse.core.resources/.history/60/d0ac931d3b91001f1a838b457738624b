@@ -1,0 +1,23 @@
+package Funcionarios;
+
+public class Gerente extends Funcionario {
+
+	public Gerente () {
+		super("Gerente");
+	}
+	
+	@Override
+	public float calcularBonus() {
+		return this.salario * 0.30f;
+		
+	}
+	
+	@Override
+	public String toString() {
+		return "Nome: "+this.nome+'\n'+
+				"Cargo: "+this.cargo+'\n'+
+				"Salario: "+this.salario+'\n'+
+				"Bonus: "+calcularBonus() +'\n';
+	}
+	
+}

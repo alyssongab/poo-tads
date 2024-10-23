@@ -1,0 +1,11 @@
+package Funcionarios;
+
+public class Programador extends Funcionario {
+
+	@Override
+	public float calcularBonus() {
+		// TODO Auto-generated method stub
+		return this.salario * 0.20f;
+	}
+
+}

@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Workspaces\poo-tads\.metadata\.plugins\org.eclipse.jdt.core
+30195398.index
+1865797976.index
+3325574415.index

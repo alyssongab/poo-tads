@@ -1,0 +1,14 @@
+package veiculos;
+
+public class Programa {
+	public static void main(String[] args) {
+		Carro c = new Carro();
+		Caminhao cam = new Caminhao();
+		
+		c.marca = "Fiat";
+		c.modelo = "Argo";
+		c.ano = 2018;
+		
+		System.out.println(c);
+	}
+}

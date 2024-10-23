@@ -1,0 +1,10 @@
+package veiculos;
+
+public class Programa {
+	public static void main(String[] args) {
+		Carro c = new Carro();
+		Caminhao cam = new Caminhao();
+		
+		
+	}
+}
